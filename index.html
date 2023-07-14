@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <div class="containers">
+      <div class="container 1st-container">
+        <div class="title">
+          <h1>Start A New Social Adventure.</h1>
+        </div>
+        <div>
+          <p>
+            Get involve with people and events around you. Engage your kids who
+            need help thinking about social situations and acting appropriately
+            within them
+          </p>
+        </div>
+        <button>Sign In</button>
+
+        <h3>Or Create Account</h3>
+      </div>
+
+      <div class="container 2nd-container">
+        <div class="header">
+          <h2>Create Account</h2>
+        </div>
+        <form id="form" class="form">
+          <div class="form-control">
+            <input type="text" placeholder="Full Name" id="username" />
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <input type="email" placeholder="Email" id="email" />
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <input type="password" placeholder="Password" id="password" />
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <input
+              type="password"
+              placeholder="Confirm Password"
+              id="password2"
+            />
+            <small>Error message</small>
+            <div>
+              <h5>Agree to the terms and conditions</h5>
+            </div>
+          </div>
+          <button>Sign Up</button>
+          <div>
+            <h4>Already have an account?</h4>
+            <h3><a href="">Sign in</a></h3>
+          </div>
+        </form>
+      </div>
+
+      <div class="container 3rd-container"></div>
+      <div class="header">
+        <h2>Welcome Back!</h2>
+        <p>Continue your adventure</p>
+      </div>
+
+      <form action="" id="form" class="form">
+        <div class="form-control">
+          <input type="text" placeholder="Email" id="username" />
+        </div>
+        <div class="form-control">
+          <input type="password" placeholder="Password" id="password" />
+          <small>Error message</small>
+        </div>
+        <div>
+          <h5>Remember me</h5>
+        </div>
+        <button>Sign In</button>
+        <div>
+          <h4>Forgot password?</h4>
+        </div>
+      </form>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

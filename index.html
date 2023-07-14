@@ -9,23 +9,45 @@
   </head>
   <body>
     <div class="containers">
-      <div class="container 1st-container">
+      <div class="container container1">
         <div class="title">
           <h1>Start A New Social Adventure.</h1>
         </div>
         <div>
           <p>
-            Get involve with people and events around you. Engage your kids who
-            need help thinking about social situations and acting appropriately
-            within them
+            Engage your kids who need help thinking about social situations and
+            acting appropriately within them.
           </p>
         </div>
-        <button>Sign In</button>
-
-        <h3>Or Create Account</h3>
+        <button>Log In</button>
+        <h3><a href="#container2">Or Create Account</a></h3>
       </div>
 
-      <div class="container 2nd-container">
+      <div class="container container3">
+        <div class="header">
+          <h2>Welcome Back!</h2>
+          <p>Continue your adventure</p>
+        </div>
+
+        <form action="" id="form" class="form">
+          <div class="form-control">
+            <input type="text" placeholder="Email" id="username" />
+          </div>
+          <div class="form-control">
+            <input type="password" placeholder="Password" id="password" />
+            <small>Error message</small>
+          </div>
+          <div>
+            <h5><box class="tick"></box>Remember me</h5>
+          </div>
+          <button>Log In</button>
+          <div>
+            <h4><a href="#">Forgot password?</a></h4>
+          </div>
+        </form>
+      </div>
+
+      <div class="container container2">
         <div class="header">
           <h2>Create Account</h2>
         </div>
@@ -50,39 +72,17 @@
             />
             <small>Error message</small>
             <div>
-              <h5>Agree to the terms and conditions</h5>
+              <h5> <box class="tick"></box>Agree to the terms and conditions</h5>
             </div>
           </div>
           <button>Sign Up</button>
-          <div>
+          <div class="wrap">
             <h4>Already have an account?</h4>
-            <h3><a href="">Sign in</a></h3>
+            <h3><a href="#container3">Log in</a></h3>
           </div>
         </form>
       </div>
 
-      <div class="container 3rd-container"></div>
-      <div class="header">
-        <h2>Welcome Back!</h2>
-        <p>Continue your adventure</p>
-      </div>
-
-      <form action="" id="form" class="form">
-        <div class="form-control">
-          <input type="text" placeholder="Email" id="username" />
-        </div>
-        <div class="form-control">
-          <input type="password" placeholder="Password" id="password" />
-          <small>Error message</small>
-        </div>
-        <div>
-          <h5>Remember me</h5>
-        </div>
-        <button>Sign In</button>
-        <div>
-          <h4>Forgot password?</h4>
-        </div>
-      </form>
     </div>
 
     <script src="./script.js"></script>

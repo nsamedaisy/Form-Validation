@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: #0a1c94;
+	/* background-color: black; */
 	font-family: 'Open Sans', sans-serif;
 	display: flex;
 	align-items: center;
@@ -32,6 +32,8 @@ body {
 
 .container1 {
 	padding: 40px;
+	background-color: #0a1c94;
+color: white;
 }
 
 .title {
@@ -51,11 +53,17 @@ body {
   font-family: serif;
 }
 
+.container1 a {
+	color: white;
+}
+
 .header {
 	border-bottom: 1px solid #f0f0f0;
-	background-color: #f7f7f7;
+	/* background-color: #f7f7f7; */
 	padding: 20px 40px;
-  font-size: 24px;
+color: white;
+  font-size: 26px;
+  background-color: #0a1c94;
 }
 
 .header h2 {
@@ -73,10 +81,10 @@ body {
 	position: relative;
 }
 
-/* .form-control label {
+.form-control label {
 	display: inline-block;
 	margin-bottom: 5px;
-} */
+}
 
 .form-control input {
 	border: 2px solid #f0f0f0;
@@ -106,13 +114,13 @@ body {
   justify-content: space-between;
 }
 
-/* .form-control i {
+.form-control i {
 	visibility: hidden;
 	position: absolute;
 	top: 40px;
 	right: 10px;
   cursor: pointer;
-} */
+}
 
 /* .form-control.success i.fa-check-circle {
 	color: #2ecc71;
@@ -136,13 +144,6 @@ body {
 	visibility: visible;
 }
 
-/* .tick {
- border: 1px solid  #777;
- border-radius: 5px;
- width: 10px;
- height: 10px;
-} */
-
 .form button,
 button {
 	background-color: #0a1c94;
@@ -157,10 +158,25 @@ button {
 	width: 100%;
 }
 
+button {
+	background-color: white;
+	color: blue;
+}
+
 @media screen and (max-width: 480px) {
 
 	.social-panel-container.visible {
 		transform: translateX(0px);
+	}
+
+	.containers {
+		display: flex;
+		flex-direction: column;
+		width: 98%;
+	}
+	
+	.container {
+		margin: 40px 0;
 	}
 	
 	.floating-btn {
